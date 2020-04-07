@@ -1,3 +1,3 @@
 FROM golang:alpine
-RUN apk add git curl gcc musl-dev
+RUN apk add git curl
 RUN curl -sL https://taskfile.dev/install.sh | sh
